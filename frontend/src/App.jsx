@@ -3,7 +3,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 // import './App.css'; // อย่าลืม import ไฟล์ css
 
-const API = 'http://localhost:5000/tasks';
+const API = 'https://week6-mern.onrender.com';
 
 /* ========== SVG Donut Progress Ring ========== */
 function ProgressRing({ percent, size = 140, strokeWidth = 12, label, color }) {
